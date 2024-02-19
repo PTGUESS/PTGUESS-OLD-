@@ -1,0 +1,129 @@
+body {
+  background-color: #251f37;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+  margin: auto;
+  max-width: 580px;
+  padding: 15px 15px 100px;
+}
+
+.barra-topo {
+  align-items: center;
+  display: flex;
+}
+
+.titulo {
+  color: #f6f6f2;
+  flex-grow: 1;
+  margin-left: 32px;
+  text-align: center;
+}
+
+/* BUTAO COM O SIMBOLO 3 PONTOS */
+button.botao {
+  background: transparent;
+  color: #f6f6f2;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+button.botao:hover {
+  background-color: #38304d;
+}
+
+/* FECHO BUTAO COM O SIMBOLO 3 PONTOS */
+
+p {
+  text-align: justify;
+  color: #f6f6f2;
+}
+
+h2 {
+  text-align: center;
+  color: #f6f6f2;
+}
+
+.subtitulo {
+  color: #f6f6f2;
+  flex-grow: 1;
+  margin-left: 32px;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+span.subtitulo_texto  /* JOGO E TENTATIVAS */ {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 13px;
+}
+span.subtitulo_texto_2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* 2 PARTE CAIXA PARA O JOGO */
+
+input#palavra {
+  background-color: #38304d;
+  color: #f6f6f2;
+  border-color: white;
+  border-style: groove;
+  border-radius: 15px;
+  text-align:left;
+  padding: 15px 30px 15px;
+  font-size: 20px;  
+  width: 89%;
+}
+
+.caixa-dicas {
+  color: #f6f6f2;
+  margin: auto;
+  padding: 15px;
+  background-color: #38304d;
+  border: solid;
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.Botao-Dica {
+  text-align: center;
+}
+
+
+button.butao-dica1 {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #f6f6f2;
+  margin: auto;
+  float: right;
+}
+
+button.butao-dica2 {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #f6f6f2;
+  margin: auto;
+}
+
+button.butao-dica3 {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #f6f6f2;
+  margin: auto;
+  float: left;
+}
+
+
+/* #Tentativa-Botao1 {
+} */
